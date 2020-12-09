@@ -13,7 +13,7 @@
 <body>
 
   <header class="site-header inicio">
-      <div class="contenedor">
+      <div class="contenedor contenido-header">
 
           <div class="barra">
               <a href="index.html">
@@ -31,73 +31,130 @@
     </div>
   </header>
 
-  <section>
-    <h2>Más Sobre Nosotros</h2>
+  <section class="contenedor seccion">
+    <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
 
-      <div>
-          <img src="img/icono1.svg" alt="Icono Seguridad">
-          <h3>Seguridad</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Libero exercitationem praesentium id corporis ut quis illo
-            soluta et temporibus cupiditate error fuga unde, voluptatem facilis,
-            sit quia modi, ipsum animi.</p>
-      </div>
+      <div class="iconos-nosotros">
 
-      <div>
-          <img src="img/icono2.svg" alt="Icono Mejor Precio">
-          <h3>El Mejor Precio</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Libero exercitationem praesentium id corporis ut quis illo
-            soluta et temporibus cupiditate error fuga unde, voluptatem facilis,
-            sit quia modi, ipsum animi.</p>
-      </div>
+        <div class="icono">
+            <img src="img/icono1.svg" alt="Icono Seguridad">
+            <h3>Seguridad</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Libero exercitationem praesentium id corporis ut quis illo
+              soluta et temporibus cupiditate error fuga unde, voluptatem facilis,
+              sit quia modi, ipsum animi.</p>
+        </div>
 
-      <div>
-          <img src="img/icono3.svg" alt="Icono A Tiempo">
-          <h3>A Tiempo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Libero exercitationem praesentium id corporis ut quis illo
-            sit quia modi, ipsum animi.</p>
+        <div class="icono">
+            <img src="img/icono2.svg" alt="Icono Mejor Precio">
+            <h3>El Mejor Precio</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Libero exercitationem praesentium id corporis ut quis illo
+              soluta et temporibus cupiditate error fuga unde, voluptatem facilis,
+              sit quia modi, ipsum animi.</p>
+        </div>
+
+        <div class="icono">
+            <img src="img/icono3.svg" alt="Icono A Tiempo">
+            <h3>A Tiempo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Libero exercitationem praesentium id corporis ut quis illo
+              sit quia modi, ipsum animi.</p>
+        </div>
       </div>
   </section>
 
-  <main>
+  <main class="seccion contenedor">
 
-    <h2>Casas y Depas en Venta</h2>
+    <h2 class="fw-300 centrar-texto">Casas y Depas en Venta</h2>
 
-    <div>
-        <img src="img/anuncio1.jpg" alt="Anuncio Casa en el Lago">
-        <h3>Casa de Lujo en el Lago</h3>
-        <p>Casa en el lago con excelente vista, acabados de lujo a un excelente Precio</p>
-        <p>$3,000,000</p>
-        <a href="#">Ver Propiedad</a>
+    <div class="contenedor-anuncios">
+      <div class="anuncio">
+          <img src="img/anuncio1.jpg" alt="Anuncio Casa en el Lago">
+            <div class="contenido-anuncio">
+                <h3>Casa de Lujo en el Lago</h3>
+                <p>Casa en el lago con excelente vista, acabados de lujo a un excelente Precio</p>
+                <p class="precio">$3,000,000</p>
+
+                  <ul class="iconos-caracteristicas">
+                    <li>
+                        <img src="img/icono_wc.svg" alt="Icono WC">
+                        <p>3</p>
+                    </li>
+                    <li>
+                        <img src="img/icono_estacionamiento.svg" alt="Icono Autos">
+                        <p>3</p>
+                    </li>
+                    <li>
+                        <img src="img/icono_dormitorio.svg" alt="Icono Habitaciones">
+                        <p>4</p>
+                    </li>
+                  </ul>
+
+                <a href="#" class="boton boton-amarillo d-block">Ver Propiedad</a>
+            </div>
+      </div>
+
+      <div class="anuncio">
+          <img src="img/anuncio2.jpg" alt="Anuncio Casa de Lujo">
+          <div class="contenido-anuncio">
+              <h3>Casa terminados de lujo</h3>
+              <p>Casa con diseño moderno, así como tecnología inteligente y amueblada</p>
+              <p class="precio">$2,000,000</p>
+                <ul class="iconos-caracteristicas">
+                  <li>
+                      <img src="img/icono_wc.svg" alt="Icono WC">
+                      <p>3</p>
+                  </li>
+                  <li>
+                      <img src="img/icono_estacionamiento.svg" alt="Icono Autos">
+                      <p>3</p>
+                  </li>
+                  <li>
+                      <img src="img/icono_dormitorio.svg" alt="Icono Habitaciones">
+                      <p>4</p>
+                  </li>
+                </ul>
+                <a href="#" class="boton boton-amarillo d-block">Ver Propiedad</a>
+            </div>
+      </div>
+
+      <div class="anuncio">
+          <img src="img/anuncio3.jpg" alt="Anuncio Casa con Alberca">
+          <div class="contenido-anuncio">
+              <h3>Casa con alberca</h3>
+              <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
+              <p class="precio">$3,000,000</p>
+                <ul class="iconos-caracteristicas">
+                  <li>
+                      <img src="img/icono_wc.svg" alt="Icono WC">
+                      <p>3</p>
+                  </li>
+                  <li>
+                      <img src="img/icono_estacionamiento.svg" alt="Icono Autos">
+                      <p>3</p>
+                  </li>
+                  <li>
+                      <img src="img/icono_dormitorio.svg" alt="Icono Habitaciones">
+                      <p>4</p>
+                  </li>
+                </ul>
+              <a href="#" class="boton boton-amarillo d-block">Ver Propiedad</a>
+          </div>
+      </div>
     </div>
-
-    <div>
-        <img src="img/anuncio2.jpg" alt="Anuncio Casa de Lujo">
-        <h3>Casa terminados de lujo</h3>
-        <p>Casa con diseño moderno, así como tecnología inteligente y amueblada</p>
-        <p>$3,000,000</p>
-        <a href="#">Ver Propiedad</a>
+    <div class="ver-todas">
+        <a href="anuncios.html" class="boton boton-verde">Ver Todas</a>
     </div>
-
-    <div>
-        <img src="img/anuncio3.jpg" alt="Anuncio Casa con Alberca">
-        <h3>Casa con alberca</h3>
-        <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
-        <p>$3,000,000</p>
-        <a href="#">Ver Propiedad</a>
-    </div>
-
-    <a href="anuncios.html">Ver Todas</a>
-
   </main>
 
-  <section>
-        <h2>Encuentra la casa de tus sueños</h2>
-        <p>Llena el formulario de Contacto y un asesor se pondrá en contacto contigo
-        a la brevedad</p>
-        <a href="contacto.html">Contactanos</a>
+  <section class="imagen-contacto">
+        <div class="contenedor contenido-contacto">
+            <h2>Encuentra la casa de tus sueños</h2>
+            <p>Llena el formulario de Contacto y un asesor se pondrá en contacto contigo
+            a la brevedad</p>
+            <a href="contacto.html" class="boton boton-amarillo">Contactanos</a>
+        </div>
   </section>
 
   <section>
